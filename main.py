@@ -8,7 +8,7 @@ if __name__ == '__main__':
 
     f = open(sys.argv[1],'r')
     data = f.readline().split()
-    print(data)
+    print(int(data[0])+int(data[1]))
 
 
 
